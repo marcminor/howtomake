@@ -13,10 +13,10 @@
     {{ content }}
   </div>
 
-  <script type="text/javascript" src="{{ '/js/jquery-2.1.4.min.js' }}"></script>
-  <script type="text/javascript" src="{{ '/js/jquery.fitvids.js' }}"></script>
-  <script type="text/javascript" src="{{ '/js/jquery.ghostHunter.min.js' }}"></script>
-  <script type="text/javascript" src="{{ '/js/script.js' }}"></script>
+  <script type="text/javascript" src="{{ '/js/jquery-2.1.4.min.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/js/jquery.ghostHunter.min.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/js/script.js' | prepend: site.baseurl }}"></script>
 </body>
 
 </html>
