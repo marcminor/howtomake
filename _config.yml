@@ -10,7 +10,7 @@ title: Marc Minor Makes (Almost) Anything
 email: mminor@gsd.harvard.edu
 description: MIT MAS.863 Marc Minor Class Blog
 baseurl: '/classes/863.16/section.Harvard/people/Minor' # the subpath of your site, e.g. /blog
-url: 'fab.cba.mit.edu/' # the base hostname & protocol for your site
+url: 'http://fab.cba.mit.edu/' # the base hostname & protocol for your site
 twitter_username: marcminor
 github_username: marcminor
 
