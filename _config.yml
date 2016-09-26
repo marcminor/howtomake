@@ -10,18 +10,21 @@ title: Marc Minor Makes (Almost) Anything
 email: mminor@gsd.harvard.edu
 description: MIT MAS.863 Marc Minor Class Blog
 baseurl: '/classes/863.16/section.Harvard/people/Minor' # the subpath of your site, e.g. /blog
-url: 'http://fab.cba.mit.edu/' # the base hostname & protocol for your site
+url: 'http://fab.cba.mit.edu' # the base hostname & protocol for your site
 twitter_username: marcminor
 github_username: marcminor
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
 include:
   - _pages
+
 exclude:
   - Gemfile
   - Gemfile.lock
+
 gems:
   - jekyll-paginate
   - jekyll/tagging
@@ -34,8 +37,15 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 tag_permalink_style: pretty
 
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
 authors:
-  john:
+  marc:
     name: Marc Minor
     display_name: Marc Minor
     bio: I (Marc) am a student at Harvard's Graduate School of Design, focusing on design technology. I also run marketing at a metal 3D printing start-up. And I'm a dad...2017 is going to be tiring.
